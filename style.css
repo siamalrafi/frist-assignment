@@ -18,7 +18,8 @@ body {
 .header-content {
     text-align: center;
     padding-top: 190px;
-    color: #34dfa8;
+    color: red;
+    /*     color: #34dfa8; */
 }
 
 .header-content h1 {
