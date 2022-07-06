@@ -18,8 +18,7 @@ body {
 .header-content {
     text-align: center;
     padding-top: 190px;
-    color: red;
-    /*     color: #34dfa8; */
+    color: #34dfa8;
 }
 
 .header-content h1 {
@@ -113,7 +112,6 @@ input {
     box-sizing: border-box;
     border-bottom: 2px solid black;
 }
-
 
 .amount {
     margin-top: 30px;
@@ -261,8 +259,6 @@ input {
     padding-top: 10px;
     font-size: 40px;
     color: rgb(48, 180, 106);
-
-
 }
 
 .massage {
