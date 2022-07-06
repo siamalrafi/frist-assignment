@@ -115,3 +115,25 @@ li h3 {
     border: 5px solid green;
     background-color: rgb(136, 201, 136);
 }
+
+
+.amount-type {
+    float: right;
+    margin-right: 510px;
+    padding-top: 50px;
+}
+
+.amount-type input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.amount-button {
+    padding-top: 50px;
+    margin-left: 450px;
+    float: left;
+}
