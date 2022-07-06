@@ -1,104 +1,85 @@
 * {
     margin: 0;
-    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.container {
-    width: 1140px;
-    margin: auto;
+body {
+    height: 600px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.container-full {
+.header {
+    height: 530px;
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    text-align: center;
+    padding-top: 190px;
+    color: aquamarine;
+}
+
+.header-content h1 {
+    padding-top: 10px;
+    font-size: 60px;
+}
+
+.main-para {
+    padding-top: 10px;
+}
+
+.main-para h2 {
+    font-size: 40x;
+    padding-bottom: 20px;
+}
+
+.head-button {
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 80%;
+}
+
+/* Here is the complete of header part */
+.donate {
+    height: 400px;
     width: 100%;
 }
 
-/* heder comlfjld */
-.home-area {
-    background-image: url(images/donation0.jpg);
-    height: 560px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.home-content {}
-
-.home-text {
-    text-align: center;
-    padding-top: 300px;
-    color: rgb(76, 233, 89);
-}
-
-.home-text h1 {
-    padding-top: 5px;
-    font-size: 50px;
-    padding-bottom: 5px;
-}
-
-
-.home-text h2 {
-    padding-top: 5px;
-    font-size: 20px;
-    padding-bottom: 1px;
-}
-
-.button {
-    padding-top: 15px;
-}
-
-.link-button {
-    text-decoration: none;
-    color: brown;
-    background-color: orange;
-    font-size: 30px;
-    padding: 10px 15px;
-    border-radius: 15px;
-}
-
-.container {}
-
 .donate-content {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
-.donate-content h1 {
-    font-size: 40px;
-}
+.donate-content h1 {}
 
 .donate-content p {
-    font-size: 20px;
-    margin-right: 250px;
-    margin-left: 250px;
+    padding-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.donate-content {}
+.donate-amount {
+    margin-top: 40px;
+    display: block;
+    margin-left: 200px;
+}
 
-/* .donate-amount {
+.donate-main {
     text-align: center;
-    margin: 40px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    float: left;
     margin-left: 45px;
+    margin-top: 100px;
     margin-right: 45px;
 }
 
-ul li h3 {
-    display: inline;
-    padding: 32px 25px;
-
-} */
-
 ul {
     list-style-type: none;
-    margin-left: 300px;
-    margin-right: 45px;
-    padding-top: 20px;
 }
 
 li {
@@ -107,33 +88,233 @@ li {
 
 li h3 {
     display: inline-block;
-    padding: 32px 25px;
+    padding: 35px 25px;
 
 }
 
 #target {
-    border: 5px solid green;
-    background-color: rgb(136, 201, 136);
+    border: 5px solid rebeccapurple;
+    background-color: rgb(204, 175, 233);
+}
+
+/* dfldjfldjfljd */
+.other-amount {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
-.amount-type {
-    float: right;
-    margin-right: 510px;
-    padding-top: 50px;
-}
-
-.amount-type input {
-    width: 100%;
+input {
+    width: 60%;
     padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+    margin: 0px 0;
     border: none;
+    box-sizing: border-box;
     border-bottom: 2px solid black;
 }
 
-.amount-button {
+
+.amount {
+    margin-top: 30px;
+}
+
+.donate-main {
+    padding-top: 15px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.donate-main p {
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+.random-content {
+    height: 350px;
+}
+
+.container {
+    height: 340px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.div-one {
+    padding-left: 10px;
     padding-top: 50px;
-    margin-left: 450px;
     float: left;
+    width: 230px;
+    height: 230px;
+    background-color: rgb(163, 149, 149);
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.div-one h3 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.div-two {
+    padding-left: 10px;
+    padding-top: 50px;
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: antiquewhite;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.div-two h3 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.div-three {
+    padding-left: 10px;
+    padding-top: 50px;
+    float: right;
+    width: 230px;
+    height: 230px;
+    background-color: burlywood;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.div-three h3 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/* Here is the random-content completed */
+
+.donation {
+    display: flex;
+}
+
+.live-content {
+    padding-top: 20px;
+    width: 50%;
+    height: 100px;
+    border-color: red;
+}
+
+.live-content h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.live-content p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contribute-button {
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/* Here is the donation completed */
+.suvive-need {
+    display: flex;
+}
+
+.suvive {
+    padding-top: 60px;
+    width: 50%;
+    height: 100px;
+    border-color: red;
+}
+
+.suvive h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.suvive p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* Here is completed suvive */
+/* Here is massage tag start 
+.massage */
+.massage {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.massage h1 {
+    padding-top: 10px;
+    font-size: 40px;
+    color: rgb(48, 180, 106);
+
+
+}
+
+.massage {
+    color: rgb(27, 17, 27);
+}
+
+/* Here is completed the massage */
+.updates {
+    text-align: center;
+}
+
+.updates h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.updates p {
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.last-div {
+    height: 90px;
+    width: 60%;
+
+}
+
+.finish {
+    margin: 50px;
+}
+
+#username {
+    padding-top: 40px;
+}
+
+.footer {
+    width: 100%;
+
+    height: 100px;
+    background-color: gray;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 30px;
+    color: salmon;
+    padding-top: 15px;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
 }
