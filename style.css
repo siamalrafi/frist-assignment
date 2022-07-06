@@ -273,12 +273,14 @@ input {
 .updates h1 {
     padding-bottom: 20px;
     font-size: 40px;
+    margin-right: 40px;
 }
 
 .updates p {
-    margin-left: 30%;
-    margin-right: 20%;
     margin-bottom: 30px;
+    margin-left: 100px;
+    margin: rig;
+    margin-right: 100px;
     text-align: justify;
 }
 
