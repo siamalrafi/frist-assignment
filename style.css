@@ -25,7 +25,7 @@
 .home-text {
     text-align: center;
     padding-top: 300px;
-    color: salmon;
+    color: rgb(76, 233, 89);
 }
 
 .home-text h1 {
@@ -48,8 +48,70 @@
 .link-button {
     text-decoration: none;
     color: brown;
-    background-color: green;
+    background-color: orange;
     font-size: 30px;
     padding: 10px 15px;
     border-radius: 15px;
+}
+
+.container {}
+
+.donate-content {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.donate-content h1 {
+    font-size: 40px;
+}
+
+.donate-content p {
+    font-size: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.donate-content {}
+
+/* .donate-amount {
+    text-align: center;
+    margin: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+ul li h3 {
+    display: inline;
+    padding: 32px 25px;
+
+} */
+
+ul {
+    list-style-type: none;
+    margin-left: 300px;
+    margin-right: 45px;
+    padding-top: 20px;
+}
+
+li {
+    float: left;
+}
+
+li h3 {
+    display: inline-block;
+    padding: 32px 25px;
+
+}
+
+#target {
+    border: 5px solid green;
+    background-color: rgb(136, 201, 136);
 }
