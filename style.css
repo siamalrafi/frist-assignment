@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.container-full {
+    width: 100%;
+}
+
+/* heder comlfjld */
+.home-area {
+    background-image: url(images/donation0.jpg);
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-content {}
+
+.home-text {
+    text-align: center;
+    padding-top: 300px;
+    color: salmon;
+}
+
+.home-text h1 {
+    padding-top: 5px;
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+
+.home-text h2 {
+    padding-top: 5px;
+    font-size: 20px;
+    padding-bottom: 1px;
+}
+
+.button {
+    padding-top: 15px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: brown;
+    background-color: green;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
